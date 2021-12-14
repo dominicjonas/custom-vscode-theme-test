@@ -1,21 +1,32 @@
 {
-    "name": "penguin-dark",
-    "displayName": "Penguin Dark",
-    "description": "Penguin Dark Theme!",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Penguin Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Penguin Dark-color-theme.json"
-            }
-        ]
-    }
+  "name": "penguin-dark",
+  "displayName": "Penguin Dark",
+  "description": "Penguin Dark Theme!",
+  "version": "0.0.1",
+  "publisher": "dominicjonasdev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dominicjonas/custom-vscode-theme-test"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "dominicjonas",
+    "penguin"
+  ],
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Penguin Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Penguin Dark-color-theme.json"
+      }
+    ]
+  }
 }
